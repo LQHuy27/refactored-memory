@@ -1,0 +1,94 @@
+@font-face {
+    font-family:  Metropolis;
+    src: url(font/Metrophobic-Regular.ttf)
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  Metropolis;
+}
+body {
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin-top: 30px;
+}
+#logo{
+   display: flex;
+   flex-direction: row;
+}
+.VORNEA{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    
+}
+.log{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    width: 80px;
+    height: 45px;
+}
+
+#Account{
+    margin-top: 30px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;  
+    width: 350px;
+    font-size: 20px;
+}
+
+
+input[type]{
+    padding-left: 10px;
+    height: 60px;
+    font-size: 20px ;
+}
+input[type="submit"]{
+    background-color: #550093;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+.check{
+    display: flex;
+   flex-direction: row;
+   gap: 10px;
+}
+.check p{
+    
+    font-size: 20px;
+}
+#rectangle{
+    width:350px;
+    height:1px;
+    background:#550093;
+    margin-top: 30px;
+    text-align: center;
+}
+#or{
+    color: white;
+    position: relative;
+    bottom: 10px;
+    z-index: 1;
+    background-color: black;
+    padding: 0 30px;
+}
+#link{
+    color:#550093;
+    text-align: center;
+    text-decoration:none;
+    font-size: 20px;
+}
+
